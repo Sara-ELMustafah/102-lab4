@@ -1,4 +1,5 @@
 var question = prompt("Do you prefer white cat or black cat ?!");
+//while(question !== "white" && question !== "black"){
 while (!(question == "white" || question == "black")) {
   var question = prompt("Please enter a avalid value , white or black ?!");
 }
